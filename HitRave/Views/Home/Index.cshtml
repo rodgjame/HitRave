@@ -10,20 +10,26 @@
 <div class="row">
     <div class="col-md-4">
         <h2>Electronics</h2>
-        <img alt="Electronics" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/glasses.jpg")" />
+        <a href=@Url.Action("Shop", "Electronics")>
+            <img alt="Electronics" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/glasses.jpg")" />
+        </a>
         <p>Shop for electronic lights, toys, and everything in between</p>
-        <p><a class="btn btn-default" href=@Url.Action("Shop", "Electronics" )>Light Me Up! &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Shop", "Electronics")>Light Me Up! &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Paints and Colors</h2>
-        <img alt="Paints and Colors" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/paint.jpg")" />
+        <a href=@Url.Action("Shop", "Makeup")>
+            <img alt="Paints and Colors" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/paint.jpg")" />
+        </a>
         <p>Markers, makeup, etc.</p>
-        <p><a class="btn btn-default" href=@Url.Action("Shop", "Makeup" )>Color Me Up! &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Shop", "Makeup")>Color Me Up! &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Clothing and Accessories</h2>
-        <img alt="Clothing and Accessories" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/girl.jpg")" />
+        <a href=@Url.Action("Shop", "ClothingAndAccessories")>
+            <img alt="Clothing and Accessories" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/girl.jpg")" />
+        </a>
         <p>Need to decide on a third catagory</p>
-        <p><a class="btn btn-default" href=@Url.Action("Shop", "ClothingAndAccessories" )>Dress Me Up! &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Shop", "ClothingAndAccessories")>Dress Me Up! &raquo;</a></p>
     </div>
 </div>
