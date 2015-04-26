@@ -16,6 +16,16 @@
     white-space: normal;
 }
 
+.img-index {
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row h2 {
+    text-align: center;
+}
+
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
