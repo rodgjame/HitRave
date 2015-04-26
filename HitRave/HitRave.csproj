@@ -159,7 +159,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClothingAndAccessoriesController.cs" />
+    <Compile Include="Controllers\ElectronicsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MakeupController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -230,6 +233,12 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Electronics\Index.cshtml" />
+    <Content Include="Views\Electronics\Shop.cshtml" />
+    <Content Include="Views\Makeup\Shop.cshtml" />
+    <Content Include="Views\Makeup\Index.cshtml" />
+    <Content Include="Views\ClothingAndAccessories\Index.cshtml" />
+    <Content Include="Views\ClothingAndAccessories\Shop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

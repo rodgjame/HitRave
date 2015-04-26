@@ -5,26 +5,25 @@
 <div class="jumbotron">
     <h1>Welcome to HitRave.com</h1>
     <p class="lead">Here is where we can put some welcome text. Or we'll have a sales message</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
         <h2>Electronics</h2>
-        <img id="electronics" alt="Electronics" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/glasses.jpg")" />
+        <img alt="Electronics" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/glasses.jpg")" />
         <p>Shop for electronic lights, toys, and everything in between</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Shop", "Electronics" )>Light Me Up! &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Paints and Colors</h2>
-        <img id="paint" alt="Paints and Colors" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/paint.jpg")" />
+        <img alt="Paints and Colors" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/paint.jpg")" />
         <p>Markers, makeup, etc.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Shop", "Makeup" )>Color Me Up! &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Clothing and Accessories</h2>
-        <img id="clothing" alt="Clothing and Accessories" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/girl.jpg")" />
+        <img alt="Clothing and Accessories" class="img-index img-circle img-responsive" src="@Url.Content("~/Content/Images/girl.jpg")" />
         <p>Need to decide on a third catagory</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Shop", "ClothingAndAccessories" )>Dress Me Up! &raquo;</a></p>
     </div>
 </div>
